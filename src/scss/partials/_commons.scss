@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+// BUTTON LIST
+.btn-list{
+    padding: 15px 25px;
+    &:hover{
+        background: #fff;
+        a{
+            color: #000;
+        }
+    }
+}
