@@ -1,6 +1,3 @@
-// DISPLAY FLEX
-$disp-flex: flex;
-
 // DIVISIONE GRIGLIA
 $grid-cols: 12;
 
@@ -13,3 +10,16 @@ $grid-cols: 12;
 // PALETTE BLACK BACK
 $palette-b: #101010, #e6e6e6, #222222, #1e1e1e;
 
+// MARGIN-TOP
+@for $i from 1 through 6{
+    .m-t-#{$i*10}{
+        margin-top: $i * 10px;
+    }
+}
+
+// PADDING-TOP
+@for $i from 1 through 6{
+    .p-t-#{$i*10}{
+        padding-top: $i * 10px;
+    }
+}

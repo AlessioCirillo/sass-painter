@@ -46,12 +46,67 @@
   flex-basis: 100%;
 }
 
-body {
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}
+
+.m-t-60 {
+  margin-top: 60px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-t-40 {
+  padding-top: 40px;
+}
+
+.p-t-50 {
+  padding-top: 50px;
+}
+
+.p-t-60 {
+  padding-top: 60px;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-size: 14px;
   color: #fff;
+}
+
+.flex {
+  display: flex;
 }
 
 .container {
@@ -61,16 +116,28 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: 400;
+}
+
 .btn-list {
   padding: 15px 25px;
 }
 
-.btn-list:hover {
-  background: #fff;
-}
-
-.btn-list:hover a {
-  color: #000;
+.btn-downl {
+  padding: 10px 15px;
+  background: #666666;
+  display: inline-flex;
+  color: #fff;
 }
 
 header {
@@ -79,7 +146,6 @@ header {
 
 header ul {
   display: flex;
-  list-style: none;
   padding: 0;
   margin-top: 0;
 }
@@ -87,32 +153,37 @@ header ul {
 header .top-navbar {
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 13px;
 }
 
-header .top-navbar ul {
-  margin-top: 10px;
-}
-
-header .top-navbar ul li {
+header .top-navbar li {
   color: #009cff;
   margin-left: 20px;
   font-size: 15px;
 }
 
-header .top-navbar ul li a {
+header .top-navbar li a {
   color: #989898;
-  text-decoration: none;
   font-size: 12px;
   margin-left: 5px;
 }
 
-header .top-navbar ul li select {
+header .top-navbar li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+header .top-navbar li select {
   font-size: 12px;
-  padding: 2px 0 1px 0;
+  padding: 2px 0;
+  padding-right: 8px;
 }
 
 header .bottom-navbar ul {
   align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+  margin-left: -15px;
 }
 
 header .bottom-navbar .logo {
@@ -121,25 +192,79 @@ header .bottom-navbar .logo {
 
 header .bottom-navbar img {
   width: 90px;
-  padding-right: 25px;
+  margin-right: 15px;
 }
 
 header .bottom-navbar i {
   font-size: 9px;
   color: #878787;
-  margin-left: 3px;
 }
 
 header .bottom-navbar a {
-  text-decoration: none;
   color: #fff;
 }
 
 header .bottom-navbar .btn-list:hover {
   background: #fff;
+  cursor: pointer;
 }
 
 header .bottom-navbar .btn-list:hover a {
   color: #000;
+}
+
+.hero {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: -330px;
+  height: 460px;
+}
+
+.hero .container {
+  justify-content: flex-end;
+}
+
+.hero .container .essentials {
+  margin-left: 255px;
+}
+
+.hero .container .essentials .subtitle {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.hero .container .essentials li {
+  font-size: 16px;
+}
+
+.hero .container .essentials i {
+  color: #878787;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.hero .container .essentials h2,
+.hero .container .essentials li {
+  margin-bottom: 15px;
+}
+
+.hero .container .essentials .btn-downl .text {
+  padding-right: 15px;
+  border-right: 1px solid #fff;
+}
+
+.hero .container .essentials .btn-downl i {
+  font-size: 26px;
+  margin-left: 15px;
+  margin-right: 0;
+  position: relative;
+  top: 6px;
+  color: #fff;
+}
+
+.hero .container .shop {
+  height: 400px;
+  background: #000;
 }
 

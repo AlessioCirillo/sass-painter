@@ -1,0 +1,55 @@
+.hero{
+    background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -330px;
+    height: 460px;
+
+    .container{
+        justify-content: flex-end;
+        
+        .essentials{
+            margin-left: 255px;
+
+            .subtitle{
+                font-size: 22px;
+                margin-bottom: 20px;  
+            }
+            li{
+                font-size: 16px;
+            }
+            i{
+                color: #878787;
+                font-size: 13px;
+                margin-right: 5px;
+            }
+
+            h2,
+            li{
+                margin-bottom: 15px;
+            }
+
+            .btn-downl {
+                .text{
+                    padding-right: 15px;
+                    border-right: 1px solid #fff;
+                }
+                i{
+                    font-size: 26px;
+                    margin-left: 15px;
+                    margin-right: 0;
+                    position: relative;
+                    top: 6px;
+                    color: #fff;
+                }
+            }
+            
+            
+        }
+
+        .shop{
+            height: 400px;
+            background: #000;
+        }
+    }
+}
