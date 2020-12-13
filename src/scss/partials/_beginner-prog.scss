@@ -1,0 +1,54 @@
+.section-1{
+    background: nth($palette-b , 1 );
+    text-align: center;
+    .title{
+        font-size: 36px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        margin: 20px;
+    }
+
+    .pdf{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+
+        img{
+            width: 34px;
+            margin-right: 20px;
+        }
+
+        span{
+            font-size: 18px;
+        }
+    }
+
+    .beg-img{
+        position: relative;
+        height: 683px;
+        background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .frame{
+            width: 1000px;
+            height: 569px;
+            background: inherit;
+            background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro-bg.jpg);
+            background-position-y: 15px;
+            background-size: contain;
+        }
+        
+        .player{
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            transform: translate(50%);
+            width: 100px;
+        }
+    }
+}

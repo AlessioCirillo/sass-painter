@@ -18,7 +18,7 @@ $palette-b: #101010, #e6e6e6, #222222, #1e1e1e;
 }
 
 // PADDING-TOP
-@for $i from 1 through 6{
+@for $i from 1 through 10{
     .p-t-#{$i*10}{
         padding-top: $i * 10px;
     }

@@ -7,6 +7,7 @@
 body{
     font-size: 14px;
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex{
@@ -17,7 +18,12 @@ body{
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-small{
+    max-width: 970px;
+    padding: 0 15px;
+    margin: auto;
 }
 
 // UTILITIES
