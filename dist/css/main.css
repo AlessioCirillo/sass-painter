@@ -140,6 +140,15 @@ h2 {
   color: #fff;
 }
 
+.btn-shop {
+  display: inline-block;
+  padding: 8px 40px;
+  background: #009cff;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
 header {
   background: #101010;
 }
@@ -154,6 +163,10 @@ header .top-navbar {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 13px;
+}
+
+header .top-navbar ul {
+  margin-right: 15px;
 }
 
 header .top-navbar li {
@@ -266,5 +279,45 @@ header .bottom-navbar .btn-list:hover a {
 .hero .container .shop {
   height: 400px;
   background: #000;
+  padding: 20px;
+}
+
+.hero .container .shop .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hero .container .shop .price p {
+  font-size: 26px;
+}
+
+.hero .container .shop .price p:last-child {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+
+.hero .container .shop .offer {
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.hero .container .shop .offer p,
+.hero .container .shop .offer span {
+  color: #2c2c2c;
+  margin: 4px 0;
+}
+
+.hero .container .shop .offer p {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.hero .container .shop .offer a {
+  display: block;
+  margin-top: 4px;
+  color: #009cff;
 }
 
